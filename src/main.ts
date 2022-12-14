@@ -16,4 +16,8 @@ async function run(): Promise<void> {
   }
 }
 
+function fibonacci(int n) {
+  // implement fibonacci recursively
+}
+
 run()
