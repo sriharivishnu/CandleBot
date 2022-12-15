@@ -18,7 +18,11 @@ async function run(): Promise<void> {
 
 // calculates the nth fibonacci number
 function fibonacci(int n) {
-  // TODO
+  if (n < 2) {
+    return n;
+  }
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
+
 
 run()
