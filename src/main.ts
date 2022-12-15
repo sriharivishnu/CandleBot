@@ -18,6 +18,12 @@ async function run(): Promise<void> {
 
 function fibonacci(int n) {
   // implement fibonacci recursively
+  if(int i = 0 or int i = 1) {
+	return int i; 
+  } else {
+	return fibonacci(int i - 2) + fibonacci(int i - 1);
+  }
 }
+
 
 run()
