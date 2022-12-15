@@ -16,4 +16,9 @@ async function run(): Promise<void> {
   }
 }
 
+// calculates the nth fibonacci number
+function fibonacci(int n) {
+  // TODO
+}
+
 run()
