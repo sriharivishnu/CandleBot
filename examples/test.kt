@@ -12,7 +12,6 @@ assertThat(cart.items).anyMatch {
     it.token == product.token && it.children.single().some_integer == 3
 }
 
-
 fun doSomething(something: Int?, somethingElse: Int?): Int? {
     if (something == null || somethingElse == null) {
         return null
@@ -38,7 +37,6 @@ fun getSomething(request: Request): Response {
     if (request.token == null) throw ApiException.badRequest("token is mandatory")
     somethingService.get(request.token, request.old_name, request.new_name);
 }
-
 
 // We already have pField in the SomeClass class so the query can be simplified to addIn("pField", fields) without any subqueries
 fun someFunction( 
