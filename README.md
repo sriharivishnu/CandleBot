@@ -1,4 +1,5 @@
-# candle-bot
+![Group 8](https://user-images.githubusercontent.com/37857112/208780434-922de2bc-5403-49fa-8473-5debad1dc012.png)
+
 
 ## Demo
 https://www.youtube.com/watch?v=ajlaAdS3a-I&ab_channel=SrihariVishnu
