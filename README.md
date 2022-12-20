@@ -1,6 +1,7 @@
 # candle-bot
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that An awesome bot that will fix your code for you
+## Demo
+https://www.youtube.com/watch?v=ajlaAdS3a-I&ab_channel=SrihariVishnu
 
 ## Setup
 
